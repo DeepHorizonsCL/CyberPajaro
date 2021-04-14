@@ -1,0 +1,6 @@
+
+
+
+--propNPC.networkedPropertyChangedEvent:Connect(OnPropertyChanged)
+
+
