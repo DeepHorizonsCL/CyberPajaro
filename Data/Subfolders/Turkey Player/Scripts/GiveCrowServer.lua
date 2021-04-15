@@ -10,20 +10,19 @@ local projectileImpactListener = nil
 local chickens = {}
 local chickenMap = ""
 
-
 function OnBindingReleased(player, bindingReleased)
     print("binding ",bindingReleased)
     if bindingReleased == "ability_extra_21" then
-        print("Impulso hacia arriba")
+        print("TERMINAR Impulso hacia arriba")
         player.serverUserData.W = false
     elseif bindingReleased == "ability_extra_31" then
-        print("Impulso hacia abajo")
+        print("TERMINAR Impulso hacia abajo")
         player.serverUserData.S = false
     elseif bindingReleased == "ability_extra_30" then
-        print("Impulso hacia abajo")
+        print("TERMINAR Impulso hacia la izquierda")
         player.serverUserData.A = false
-    elseif bindingReleased == "ability_extra_30" then
-        print("Impulso hacia abajo")
+    elseif bindingReleased == "ability_extra_32" then
+        print("TERMINAR Impulso hacia la derecha")
         player.serverUserData.D = false
     end
 end
