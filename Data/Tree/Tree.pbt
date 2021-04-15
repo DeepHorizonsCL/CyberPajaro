@@ -27,6 +27,7 @@ Objects {
   ChildIds: 7367708244003367674
   ChildIds: 16793345301916488345
   ChildIds: 6838603200155903750
+  ChildIds: 15945629788290956891
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,6 +40,47 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 15945629788290956891
+  Name: "AmmoPlant"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4886754559529813731
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AmmoPlant"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2273
+            Y: 3430
+            Z: -219
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3246017222882703219
+    }
   }
 }
 Objects {
