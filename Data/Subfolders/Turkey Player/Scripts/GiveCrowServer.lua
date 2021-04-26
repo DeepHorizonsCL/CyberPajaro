@@ -11,24 +11,24 @@ local chickens = {}
 local chickenMap = ""
 
 function OnBindingReleased(player, bindingReleased)
-    print("binding ",bindingReleased)
+    --print("binding ",bindingReleased)
     if bindingReleased == "ability_extra_21" or bindingReleased == "ability_extra_46" then
-        print("TERMINAR Impulso hacia arriba")
+        --print("TERMINAR Impulso hacia arriba")
         player.serverUserData.W = false
     elseif bindingReleased == "ability_extra_31" or bindingReleased == "ability_extra_47" then
-        print("TERMINAR Impulso hacia abajo")
+        --print("TERMINAR Impulso hacia abajo")
         player.serverUserData.S = false
     elseif bindingReleased == "ability_extra_30" or bindingReleased == "ability_extra_48" then
-        print("TERMINAR Impulso hacia la izquierda")
+        --print("TERMINAR Impulso hacia la izquierda")
         player.serverUserData.A = false
     elseif bindingReleased == "ability_extra_32" or bindingReleased == "ability_extra_49" then
-        print("TERMINAR Impulso hacia la derecha")
+        --print("TERMINAR Impulso hacia la derecha")
         player.serverUserData.D = false
     end
 end
 
 function OnBindingPressed(player, bindingPressed)
-    print("binding ",bindingPressed)
+    --print("binding ",bindingPressed)
     if bindingPressed == "ability_primary" or bindingPressed =="ability_extra_17" then
         print("SHOOT", player.name)
 
@@ -43,16 +43,16 @@ function OnBindingPressed(player, bindingPressed)
         --projectileImpactListener = projectile.impactEvent:Connect(OnProjectileImpact)
 
     elseif bindingPressed == "ability_extra_21" or  bindingPressed == "ability_extra_46" then
-        print("Impulso hacia arriba")
+        --print("Impulso hacia arriba")
         player.serverUserData.W = true
     elseif bindingPressed == "ability_extra_31" or  bindingPressed == "ability_extra_47" then
-        print("Impulso hacia abajo")
+        --print("Impulso hacia abajo")
         player.serverUserData.S = true
     elseif bindingPressed == "ability_extra_30" or  bindingPressed == "ability_extra_48" then
-        print("Impulso hacia la izquierda")
+        --print("Impulso hacia la izquierda")
         player.serverUserData.A = true
     elseif bindingPressed == "ability_extra_32" or  bindingPressed == "ability_extra_49" then
-        print("Impulso hacia la derecha")
+        --print("Impulso hacia la derecha")
         player.serverUserData.D = true
     end
 end

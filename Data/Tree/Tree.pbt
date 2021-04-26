@@ -19,15 +19,19 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 4456063926495415424
-  ChildIds: 14555736874373864617
   ChildIds: 11763929955986876072
   ChildIds: 4663283175311647740
   ChildIds: 3296887765817268028
   ChildIds: 7367708244003367674
   ChildIds: 16793345301916488345
   ChildIds: 6838603200155903750
-  ChildIds: 15945629788290956891
+  ChildIds: 8490452136132876859
+  ChildIds: 13623666940681671920
+  ChildIds: 12155275749704499965
+  ChildIds: 2776651303302064986
+  ChildIds: 7730101636083890425
+  ChildIds: 8086701562454530251
+  ChildIds: 16088551554180848207
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,8 +47,156 @@ Objects {
   }
 }
 Objects {
-  Id: 15945629788290956891
-  Name: "AmmoPlant"
+  Id: 16088551554180848207
+  Name: "Combat Dependencies"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8014650375856875642
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Combat Dependencies"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -77
+            Y: 645
+            Z: -110
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7646593255349821538
+    }
+  }
+}
+Objects {
+  Id: 8086701562454530251
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 3340
+      Z: -13
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 4192
+            Z: -13
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 7730101636083890425
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 1325
+      Z: -13
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 3340
+            Z: 213
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 2776651303302064986
+  Name: "SkullHeadEnemy"
   Transform {
     Scale {
       X: 1
@@ -62,24 +214,474 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 4886754559529813731
+      key: 9757411940140991863
       value {
         Overrides {
           Name: "Name"
-          String: "AmmoPlant"
+          String: "SkullHeadEnemy"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 2273
-            Y: 3430
-            Z: -219
+            X: 19
+            Y: 1325
+            Z: 230
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
           }
         }
       }
     }
     TemplateAsset {
-      Id: 3246017222882703219
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 12155275749704499965
+  Name: "UI Progress Bar"
+  Transform {
+    Location {
+      X: 36824
+      Y: 12096
+      Z: 4697
+    }
+    Rotation {
+      Yaw: 15.00002
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    StatBar {
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      BackgroundColor {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 13623666940681671920
+  Name: "Monta\303\261as"
+  Transform {
+    Location {
+      Z: -21074
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 2824378426734146570
+    }
+    VoxelSize: 700
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
+  }
+}
+Objects {
+  Id: 8490452136132876859
+  Name: "Terrain"
+  Transform {
+    Location {
+      Z: -455
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 6679793814914559608
+    }
+    VoxelSize: 100
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
+    Foliage {
+      Asset {
+        Id: 16103359279847905967
+      }
+      DistanceBetweenInstances: 810
+      SpawnDistance: 19200
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Grass"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 1237558461200185453
+      }
+      DistanceBetweenInstances: 1000
+      SpawnDistance: 20000
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Grass"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 5884898903949143430
+      }
+      DistanceBetweenInstances: 12000
+      SpawnDistance: 25600
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Leaves"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      Materials {
+        key: "Nature_Trunk"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 6288014450590117605
+      }
+      DistanceBetweenInstances: 12000
+      SpawnDistance: 25600
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Leaves"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      Materials {
+        key: "Nature_Trunk"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 767473688799299795
+      }
+      DistanceBetweenInstances: 2400
+      SpawnDistance: 25600
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Leaves"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      Materials {
+        key: "Nature_Trunk"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 10832833472905072204
+      }
+      DistanceBetweenInstances: 3500
+      SpawnDistance: 25600
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Leaves"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      Materials {
+        key: "Nature_Trunk"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
     }
   }
 }
@@ -88,9 +690,9 @@ Objects {
   Name: "Barrier Concrete 01"
   Transform {
     Location {
-      X: -84
+      X: -114
       Y: 4930
-      Z: -70
+      Z: -109
     }
     Rotation {
     }
@@ -176,7 +778,7 @@ Objects {
     Location {
       X: -84
       Y: 4076
-      Z: 421
+      Z: -116
     }
     Rotation {
     }
@@ -219,7 +821,7 @@ Objects {
     Location {
       X: -84
       Y: 3171
-      Z: 421
+      Z: -119
     }
     Rotation {
     }
@@ -260,9 +862,9 @@ Objects {
   Name: "Barrier Concrete 01"
   Transform {
     Location {
-      X: -84
+      X: 59
       Y: 2070
-      Z: 716
+      Z: -113
     }
     Rotation {
     }
@@ -303,7 +905,7 @@ Objects {
   Name: "Barrier Concrete 01"
   Transform {
     Location {
-      X: -84
+      X: -170
       Y: 2508
       Z: -110
     }
@@ -342,98 +944,6 @@ Objects {
   }
 }
 Objects {
-  Id: 14555736874373864617
-  Name: "Barrier Caution Light 1"
-  Transform {
-    Location {
-      X: -82
-      Y: 1759
-      Z: -110
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2619823432500906054
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4456063926495415424
-  Name: "Default Floor"
-  Transform {
-    Location {
-      Y: -0.458435059
-      Z: -269
-    }
-    Rotation {
-    }
-    Scale {
-      X: 140.999939
-      Y: 150.5
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 14982843161775482339
   Name: "Default Floor"
   Transform {
@@ -444,13 +954,19 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 6.00000143
-      Y: 150.5
+      X: 11.500001
+      Y: 222.75
       Z: 1
     }
   }
   ParentId: 4781671109827199097
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 2257096422980048090
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -713,9 +1229,9 @@ Objects {
     Overrides {
       Name: "bp:Zenith Color"
       Color {
-        R: 0.0243181027
-        G: 0.0633459464
-        B: 0.212230757
+        R: 0.120000005
+        G: 0.178278029
+        B: 1
         A: 0.886000037
       }
     }
@@ -810,6 +1326,15 @@ Objects {
     Overrides {
       Name: "bp:High Cloud Noise Scale"
       Float: 0.2
+    }
+    Overrides {
+      Name: "bp:Overall Tint"
+      Color {
+        R: 0.591125965
+        G: 0.37
+        B: 1
+        A: 1
+      }
     }
   }
   Collidable_v2 {
