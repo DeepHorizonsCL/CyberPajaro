@@ -19,7 +19,7 @@ function OnDangerBegin(whichTrigger, other)
         --COMBAT().ApplyDamage(other, dmg, script, ROOT:GetWorldPosition(), 0)
         other:ResetVelocity()
         print("impulso para ",other )
-        other:AddImpulse(Vector3.New(0,-99999999,0))
+        other:AddImpulse(Vector3.New(0,-99999,0))
         Task.Wait(0.5)
     end
 end

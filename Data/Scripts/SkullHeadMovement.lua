@@ -2,12 +2,8 @@
 --local ROOT = script.parent
 --print (ROOT)
 local propNPC = script:GetCustomProperty("NPC"):WaitForObject()
-local prop_TimeToTravel = script:GetCustomProperty("TimeToTravel")
-local prop_Delay = script:GetCustomProperty("Delay")
-local prop_Offset = script:GetCustomProperty("Offset")
-local ROOT = script:GetCustomProperty("Body"):WaitForObject()
 local propPlayersTrigger = script:GetCustomProperty("PlayersTrigger"):WaitForObject()
-
+local propVelMove = script:GetCustomProperty("velMove")
 local propAttack = script:GetCustomProperty("Attack")
 
 local propModuleManager = script:GetCustomProperty("ModuleManager")
@@ -22,28 +18,18 @@ local movingToOffset = true
 
 local players = 0
 
+local moving = false
 
-local startPos = ROOT:GetWorldPosition()
+
+local startPos = propNPC:GetWorldPosition()
 
 --print (startPos)
 
-function Tick()
-    --ROOT:MoveTo(ROOT:GetWorldPosition() + Vector3.UP * 1000, prop_TimeToTravel)
-    ROOT:MoveTo(startPos + prop_Offset, prop_TimeToTravel)
-    ----print("mov1")
-    Task.Wait (prop_TimeToTravel)
-    if propAttack and players > 0 then
-        print("set attack")
-        propNPC:SetNetworkedCustomProperty("Attacking", true)
-        attack()
+function Tick(deltatime)
+    local pos  = propNPC:GetWorldPosition()  
+    if moving then
+        propNPC:SetWorldPosition(pos - Vector3.New(0,1 * propVelMove * deltatime,0) )
     end
-    Task.Wait(prop_Delay)
-    propNPC:SetNetworkedCustomProperty("Attacking", false)
-
-    ----print("mov2")
-    ROOT:MoveTo(startPos, prop_TimeToTravel)
-    Task.Wait(prop_TimeToTravel + prop_Delay)
-   --ROOT:MoveTo(ROOT:GetWorldPosition() - Vector3.UP * 1000, prop_TimeToTravel)
 end
 
 function attack()
@@ -53,7 +39,7 @@ function attack()
 
     Task.Wait(0.12)
 
-    local player = Game.FindNearestPlayer(ROOT:GetWorldPosition())
+    local player = Game.FindNearestPlayer(propNPC:GetWorldPosition())
     local positionplayer = player:GetWorldPosition() + Vector3.New(0,0,80)
     local dirProjectile = (positionplayer - PositionSpawn):GetNormalized()
     local projectile =  Projectile.Spawn(propProjectile, PositionSpawn, dirProjectile )
@@ -115,12 +101,15 @@ end
 
 function OnBeginOverlap(whichTrigger, other)
     if other:IsA("Player") then
+        print("Entro Player")
         players = players + 1
+        moving = true
     end
 end
 
 function OnEndOverlap(whichTrigger, other)
     if other:IsA("Player") then
+        print("Salio Player")
         players = players - 1
     end
 end

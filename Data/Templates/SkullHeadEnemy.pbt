@@ -18,6 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 7442376814821293974
         ChildIds: 16765183210588867729
+        ChildIds: 13662825321732108276
         ChildIds: 5973670216738821285
         ChildIds: 11219184440929401059
         UnregisteredParameters {
@@ -49,13 +50,15 @@ Assets {
         Name: "TriggerPlayers"
         Transform {
           Location {
+            X: 0.000149010841
+            Y: 624.996582
           }
           Rotation {
             Yaw: -90
           }
           Scale {
-            X: 6
-            Y: 12.5000019
+            X: 12.9999971
+            Y: 12.5
             Z: 9
           }
         }
@@ -113,6 +116,67 @@ Assets {
           }
           TriggerShape_v2 {
             Value: "mc:etriggershape:capsule"
+          }
+        }
+      }
+      Objects {
+        Id: 13662825321732108276
+        Name: "SkullHeadMovement"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9757411940140991863
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:NPC"
+            ObjectReference {
+              SubObjectId: 9757411940140991863
+            }
+          }
+          Overrides {
+            Name: "cs:velMove"
+            Float: 100
+          }
+          Overrides {
+            Name: "cs:PlayersTrigger"
+            ObjectReference {
+              SubObjectId: 7442376814821293974
+            }
+          }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 9770511928359673738
+            }
+          }
+          Overrides {
+            Name: "cs:Projectile"
+            AssetReference {
+              Id: 3246017222882703219
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 15885776799844652311
           }
         }
       }
