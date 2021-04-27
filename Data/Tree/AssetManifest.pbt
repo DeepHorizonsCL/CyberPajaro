@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13914974435705128543
+  Name: "Candle Flame VFX"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_candleflame"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -53,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10526696444636517620
+  Name: "Bone Human Skull 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_skull_01_ref"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -71,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5944393796542654307
+  Name: "Capsule"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_capsule_001"
+  }
+}
+Assets {
   Id: 5884898903949143430
   Name: "Tree Birch Bare 02"
   PlatformAssetType: 1
@@ -80,12 +107,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4850619443359866551
+  Name: "Bone Human Jaw 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_jaw_01_ref"
+  }
+}
+Assets {
   Id: 2824378426734146570
   Name: "Bark Redwood 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bark_redwood_001_uv"
+  }
+}
+Assets {
+  Id: 2494920176024075778
+  Name: "Fire Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fire_volume_vfx"
   }
 }
 Assets {

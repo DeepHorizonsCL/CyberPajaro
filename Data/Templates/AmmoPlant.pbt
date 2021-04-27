@@ -22,6 +22,16 @@ Assets {
         ChildIds: 7059077098484197112
         ChildIds: 8306280860042306364
         ChildIds: 9096029142792434902
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Ataque"
+            Float: 10
+          }
+          Overrides {
+            Name: "cs:Ataque:isrep"
+            Bool: true
+          }
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"

@@ -18,16 +18,33 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 7442376814821293974
         ChildIds: 16765183210588867729
+        ChildIds: 12634982324910883159
         ChildIds: 13662825321732108276
-        ChildIds: 5973670216738821285
+        ChildIds: 4488272736296039527
         ChildIds: 11219184440929401059
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:Life"
+            Float: 10
+          }
+          Overrides {
+            Name: "cs:Damage"
+            Float: 1
+          }
           Overrides {
             Name: "cs:Attacking"
             Bool: false
           }
           Overrides {
             Name: "cs:Attacking:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Life:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Damage:isrep"
             Bool: true
           }
         }
@@ -39,7 +56,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -88,9 +105,10 @@ Assets {
         Name: "TriggerDamage"
         Transform {
           Location {
+            Z: 20
           }
           Rotation {
-            Yaw: -89.9999771
+            Yaw: -89.9999695
           }
           Scale {
             X: 3
@@ -111,11 +129,55 @@ Assets {
         }
         Trigger {
           TeamSettings {
+            TeamInt: 2
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
           TriggerShape_v2 {
             Value: "mc:etriggershape:capsule"
+          }
+        }
+      }
+      Objects {
+        Id: 12634982324910883159
+        Name: "Collider"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 2.5
+          }
+        }
+        ParentId: 9757411940140991863
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5944393796542654307
+          }
+          Teams {
+            TeamInt: 2
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
           }
         }
       }
@@ -181,16 +243,12 @@ Assets {
         }
       }
       Objects {
-        Id: 5973670216738821285
-        Name: "OnlyDamage"
+        Id: 4488272736296039527
+        Name: "LifeAndDamage"
         Transform {
           Location {
-            X: 19464.002
-            Y: -9865.99609
-            Z: 790
           }
           Rotation {
-            Yaw: -89.9999847
           }
           Scale {
             X: 1
@@ -207,14 +265,14 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:DamageNumber"
+            Float: 10
+          }
+          Overrides {
             Name: "cs:DangerZone"
             ObjectReference {
               SubObjectId: 16765183210588867729
             }
-          }
-          Overrides {
-            Name: "cs:DamageNumber"
-            Float: 20
           }
         }
         WantsNetworking: true
@@ -229,7 +287,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 14708541576028090911
+            Id: 17737562968012951706
           }
         }
       }
@@ -566,6 +624,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 5944393796542654307
+      Name: "Capsule"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_capsule_001"
       }
     }
     Assets {

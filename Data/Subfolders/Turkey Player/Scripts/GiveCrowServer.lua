@@ -40,7 +40,8 @@ function OnBindingPressed(player, bindingPressed)
         projectile.speed = 1200
         projectile.gravityScale = 0
         projectile.piercesRemaining = 999
-        --projectileImpactListener = projectile.impactEvent:Connect(OnProjectileImpact)
+        projectile.owner = player
+        projectileImpactListener = projectile.impactEvent:Connect(OnProjectileImpact)
 
     elseif bindingPressed == "ability_extra_21" or  bindingPressed == "ability_extra_46" then
         --print("Impulso hacia arriba")
@@ -68,7 +69,7 @@ function OnPlayerJoined(player)
     player.serverUserData.S = false
     player.serverUserData.A = false
     player.serverUserData.D = false
-    
+    player.serverUserData.attackpoints = 1
 end
 
 
@@ -106,21 +107,28 @@ function Tick()
 end
 
 function OnProjectileImpact(projectile, other, hitResult)
-    print("soy el proyectic ", projectile.name, "  " ,other.name)
+    print("soy el proyectil ", projectile.name, " y choque con " ,other.name)
 	local myTeam = GetTeam()
 	local impactTeam = GetObjectTeam(other)
     --print(myTeam)
-    --print(impactTeam)
+    print("team del impacto", impactTeam)
+
+    if( impactTeam == 2) then
+        --print("es el 2 atacadlo")
+        local pos = hitResult:GetImpactPosition()
+        local rot = projectile:GetWorldTransform():GetRotation()
+        --print("Ataca ", projectile:GetCustomProperty("Ataque"))
+        local damageAmount = 10
+        local dmg = Damage.New(damageAmount)
+        dmg:SetHitResult(hitResult)
+        dmg.reason = DamageReason.COMBAT
+        --COMBAT().ApplyDamage(other, dmg, script, pos, rot)
+    end
+
 	if (impactTeam ~= 0 and myTeam == impactTeam) then return end
 	CleanupProjectileListener()
 
-	local pos = hitResult:GetImpactPosition()
-	local rot = projectile:GetWorldTransform():GetRotation()
-	local damageAmount = 10
-	local dmg = Damage.New(damageAmount)
-	dmg:SetHitResult(hitResult)
-	dmg.reason = DamageReason.COMBAT
-	COMBAT().ApplyDamage(other, dmg, script, pos, rot)
+    
 	projectile:Destroy()
 end
 
