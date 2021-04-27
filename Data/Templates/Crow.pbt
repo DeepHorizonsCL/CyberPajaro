@@ -49,14 +49,14 @@ Assets {
             String: "Common"
           }
           Overrides {
+            Name: "cs:Shooting"
+            Bool: false
+          }
+          Overrides {
             Name: "cs:VFX"
             AssetReference {
               Id: 3357558377324968580
             }
-          }
-          Overrides {
-            Name: "cs:Shooting"
-            Bool: false
           }
           Overrides {
             Name: "cs:animate:isrep"
@@ -202,6 +202,7 @@ Assets {
           }
         }
         ParentId: 15354163053389154363
+        ChildIds: 16109823167955796881
         ChildIds: 11244213379486581645
         ChildIds: 10227130260805345258
         ChildIds: 17074266177083480644
@@ -219,6 +220,56 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 16109823167955796881
+        Name: "CrowPico"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.85714293
+            Y: 2.85714293
+            Z: 2.85714293
+          }
+        }
+        ParentId: 16826059236390772869
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:NPC"
+            ObjectReference {
+              SubObjectId: 15354163053389154363
+            }
+          }
+          Overrides {
+            Name: "cs:PicoSup"
+            ObjectReference {
+              SubObjectId: 12628391319080515974
+            }
+          }
+          Overrides {
+            Name: "cs:PicoInf"
+            ObjectReference {
+              SubObjectId: 17393069068743089601
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 1603472362889048470
+          }
         }
       }
       Objects {

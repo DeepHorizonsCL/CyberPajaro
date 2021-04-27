@@ -32,16 +32,7 @@ function OnBindingPressed(player, bindingPressed)
     if bindingPressed == "ability_primary" or bindingPressed =="ability_extra_17" then
         print("SHOOT", player.name)
 
-        local dirProjectile = Vector3.New(0,1,0)
-        local posProjectile = player:GetWorldPosition() + Vector3.New(0,80,-50)
-        local projectile =  Projectile.Spawn(propShoot, posProjectile, dirProjectile )
-
-        projectile.lifeSpan = 10
-        projectile.speed = 1200
-        projectile.gravityScale = 0
-        projectile.piercesRemaining = 999
-        projectile.owner = player
-        projectileImpactListener = projectile.impactEvent:Connect(OnProjectileImpact)
+        Shoot(player,player.serverUserData.attackActual)
 
     elseif bindingPressed == "ability_extra_21" or  bindingPressed == "ability_extra_46" then
         --print("Impulso hacia arriba")
@@ -70,6 +61,7 @@ function OnPlayerJoined(player)
     player.serverUserData.A = false
     player.serverUserData.D = false
     player.serverUserData.attackpoints = 1
+    player.serverUserData.attackActual = 1
 end
 
 
@@ -104,6 +96,125 @@ function Tick()
         --print("impulso para ", player.name)
     end
 
+end
+
+function Shoot(player,index)
+
+    --player.clientUserData.crow.SetNetworkedCustomProperty("Shooting", true)
+
+    if index == 1 then
+
+        local dirProjectile = Vector3.New(0,1,0)
+        local posProjectile = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile =  Projectile.Spawn(propShoot, posProjectile, dirProjectile )
+
+        projectile.lifeSpan = 2
+        projectile.speed = 1200
+        projectile.gravityScale = 0
+        projectile.piercesRemaining = 999
+        projectile.owner = player
+        projectileImpactListener = projectile.impactEvent:Connect(OnProjectileImpact)
+
+    elseif index== 2 then
+
+        local dirProjectile1 = Vector3.New(0,1,1)
+        local posProjectile1 = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile1 =  Projectile.Spawn(propShoot, posProjectile1, dirProjectile1 )
+
+        projectile1.lifeSpan = 2
+        projectile1.speed = 1200
+        projectile1.gravityScale = 0
+        projectile1.piercesRemaining = 999
+        projectile1.owner = player
+        projectileImpactListener = projectile1.impactEvent:Connect(OnProjectileImpact)
+
+        
+        local dirProjectile2 = Vector3.New(0,1,0)
+        local posProjectile2 = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile2 =  Projectile.Spawn(propShoot, posProjectile2, dirProjectile2 )
+
+        projectile2.lifeSpan = 2
+        projectile2.speed = 1200
+        projectile2.gravityScale = 0
+        projectile2.piercesRemaining = 999
+        projectile2.owner = player
+        projectileImpactListener = projectile2.impactEvent:Connect(OnProjectileImpact)
+
+
+    elseif index == 3 then
+        
+        local dirProjectile1 = Vector3.New(0,1,1)
+        local posProjectile1 = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile1 =  Projectile.Spawn(propShoot, posProjectile1, dirProjectile1 )
+
+        projectile1.lifeSpan = 2
+        projectile1.speed = 1200
+        projectile1.gravityScale = 0
+        projectile1.piercesRemaining = 999
+        projectile1.owner = player
+        projectileImpactListener = projectile1.impactEvent:Connect(OnProjectileImpact)
+
+        
+        local dirProjectile2 = Vector3.New(0,1,0)
+        local posProjectile2 = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile2 =  Projectile.Spawn(propShoot, posProjectile2, dirProjectile2)
+
+        projectile2.lifeSpan = 2
+        projectile2.speed = 1200
+        projectile2.gravityScale = 0
+        projectile2.piercesRemaining = 999
+        projectile2.owner = player
+        projectileImpactListener = projectile2.impactEvent:Connect(OnProjectileImpact)
+
+        
+        local dirProjectile3 = Vector3.New(0,1,-1)
+        local posProjectile3 = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile3 =  Projectile.Spawn(propShoot, posProjectile3, dirProjectile3 )
+
+        projectile3.lifeSpan = 2
+        projectile3.speed = 1200
+        projectile3.gravityScale = 0
+        projectile3.piercesRemaining = 999
+        projectile3.owner = player
+        projectileImpactListener = projectile3.impactEvent:Connect(OnProjectileImpact)
+    else
+        local dirProjectile1 = Vector3.New(0,1,1)
+        local posProjectile1 = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile1 =  Projectile.Spawn(propShoot, posProjectile1, dirProjectile1 )
+
+        projectile1.lifeSpan = 2
+        projectile1.speed = 1200
+        projectile1.gravityScale = 0
+        projectile1.piercesRemaining = 999
+        projectile1.owner = player
+        projectileImpactListener = projectile1.impactEvent:Connect(OnProjectileImpact)
+
+        
+        local dirProjectile2 = Vector3.New(0,1,0)
+        local posProjectile2 = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile2 =  Projectile.Spawn(propShoot, posProjectile2, dirProjectile2 )
+
+        projectile2.lifeSpan = 2
+        projectile2.speed = 1200
+        projectile2.gravityScale = 0
+        projectile2.piercesRemaining = 999
+        projectile2.owner = player
+        projectileImpactListener = projectile2.impactEvent:Connect(OnProjectileImpact)
+
+        
+        local dirProjectile3 = Vector3.New(0,1,-1)
+        local posProjectile3 = player:GetWorldPosition() + Vector3.New(0,80,-50)
+        local projectile3 =  Projectile.Spawn(propShoot, posProjectile3, dirProjectile3 )
+
+        projectile3.lifeSpan = 2
+        projectile3.speed = 1200
+        projectile3.gravityScale = 0
+        projectile3.piercesRemaining = 999
+        projectile3.owner = player
+        projectileImpactListener = projectile3.impactEvent:Connect(OnProjectileImpact)
+    end
+
+    --player.clientUserData.crow.SetNetworkedCustomProperty("Shooting", false)
 end
 
 function OnProjectileImpact(projectile, other, hitResult)

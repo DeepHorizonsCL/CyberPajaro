@@ -37,6 +37,10 @@ Objects {
   ChildIds: 3756673039234190798
   ChildIds: 9282529283417496801
   ChildIds: 3903676565085432215
+  ChildIds: 9193028010869163035
+  ChildIds: 7693044947531396039
+  ChildIds: 9707796453826915568
+  ChildIds: 17854100389238682782
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -49,6 +53,235 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17854100389238682782
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 2700
+      Z: 150
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 3800
+            Z: 400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 9707796453826915568
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 3000
+      Z: 150
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 4100
+            Z: 400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 7693044947531396039
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 2850
+      Z: 150
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 3950
+            Z: 400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 9193028010869163035
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 3150
+      Z: 150
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4488272736296039527
+      value {
+        Overrides {
+          Name: "cs:CreateCapsule"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 4250
+            Z: 400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
   }
 }
 Objects {
