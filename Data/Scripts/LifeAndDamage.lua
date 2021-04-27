@@ -2,7 +2,8 @@ local ROOT = script.parent
 local propDangerZone = script:GetCustomProperty("DangerZone"):WaitForObject()
 local propModuleManager = script:GetCustomProperty("ModuleManager") 
 local propDeadBody = script:GetCustomProperty("DeadBody")
-
+local propCreateCapsule = script:GetCustomProperty("CreateCapsule")
+local propCapsule = script:GetCustomProperty("Capsule")
 
 local MODULE = require( script:GetCustomProperty("ModuleManager"))
 
@@ -36,6 +37,9 @@ function OnDangerBegin(whichTrigger, other)
 
             if life < 1 then
                 World.SpawnAsset(propDeadBody, {position = ROOT:GetWorldPosition(), rotation = ROOT:GetWorldRotation() })
+                if propCreateCapsule then
+                    World.SpawnAsset(propCapsule, {position = ROOT:GetWorldPosition()})
+                end
                 ROOT:Destroy()
             end
         end

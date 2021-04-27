@@ -25,11 +25,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Life"
-            Float: 10
+            Float: 1
           }
           Overrides {
             Name: "cs:Damage"
-            Float: 1
+            Float: 10
           }
           Overrides {
             Name: "cs:Attacking"
@@ -272,6 +272,22 @@ Assets {
             Name: "cs:DangerZone"
             ObjectReference {
               SubObjectId: 16765183210588867729
+            }
+          }
+          Overrides {
+            Name: "cs:DeadBody"
+            AssetReference {
+              Id: 13286927452092422979
+            }
+          }
+          Overrides {
+            Name: "cs:CreateCapsule"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Capsule"
+            AssetReference {
+              Id: 10965148045289499161
             }
           }
         }

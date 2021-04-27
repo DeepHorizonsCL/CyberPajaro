@@ -29,10 +29,14 @@ Objects {
   ChildIds: 13623666940681671920
   ChildIds: 12155275749704499965
   ChildIds: 16088551554180848207
-  ChildIds: 11608205251203227857
-  ChildIds: 3983904831151167373
-  ChildIds: 8165854015990106547
-  ChildIds: 15865188970662252232
+  ChildIds: 13406746537179956783
+  ChildIds: 8715809259951206753
+  ChildIds: 18257899080562443998
+  ChildIds: 10107420451112305548
+  ChildIds: 13776904743061140475
+  ChildIds: 3756673039234190798
+  ChildIds: 9282529283417496801
+  ChildIds: 3903676565085432215
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -48,1433 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15865188970662252232
-  Name: "SkullHeadEnemy"
-  Transform {
-    Location {
-      X: 19
-      Y: 1650
-      Z: 230
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 7272914094075619884
-  ChildIds: 6293646056428984264
-  ChildIds: 188823486210523509
-  ChildIds: 4462342505647704929
-  ChildIds: 3682944280905607709
-  ChildIds: 17637968562830005907
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Life"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:Damage"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:Attacking"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Attacking:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Life:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Damage:isrep"
-      Bool: true
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11608205251203227857
-    SubobjectId: 9757411940140991863
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 17637968562830005907
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15865188970662252232
-  ChildIds: 870426817392956981
-  ChildIds: 2354402982332330122
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 13673886781154991429
-    SubobjectId: 11219184440929401059
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 2354402982332330122
-  Name: "Bone Human Skull 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.65
-      Y: 1.65
-      Z: 1.65
-    }
-  }
-  ParentId: 17637968562830005907
-  ChildIds: 15729279443574579584
-  ChildIds: 7491267693236464892
-  ChildIds: 7184084869227210221
-  ChildIds: 6994613436021838738
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10526696444636517620
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 5992518870142020749
-    SubobjectId: 8455613250097858859
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 6994613436021838738
-  Name: "Bone Human Jaw 01"
-  Transform {
-    Location {
-      X: 1.21212
-      Y: 5.4545455
-      Z: 0.606060624
-    }
-    Rotation {
-      Roll: -5
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2354402982332330122
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4850619443359866551
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8805091168472747623
-    SubobjectId: 6647344515083922369
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 7184084869227210221
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: 4.99999809
-      Y: 17.9999981
-      Z: 5
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2354402982332330122
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Flame_A:id"
-      AssetReference {
-        Id: 12673738611328690629
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13914974435705128543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7308209818185504681
-    SubobjectId: 4835196124202578447
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 7491267693236464892
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: -5.00000191
-      Y: 17.9999981
-      Z: 5
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2354402982332330122
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Flame_A:id"
-      AssetReference {
-        Id: 16038232306704228084
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13914974435705128543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8273259842531313060
-    SubobjectId: 6098277022803288066
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 15729279443574579584
-  Name: "Fire Volume VFX"
-  Transform {
-    Location {
-      X: -1.8181833
-      Y: 4.24242401
-      Z: -3.63636374
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.25
-    }
-  }
-  ParentId: 2354402982332330122
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.0429802313
-        B: 0.590000033
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2494920176024075778
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 14262142698151191235
-    SubobjectId: 16401164685630703461
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 870426817392956981
-  Name: "SkullHeadAnimation"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17637968562830005907
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC"
-      ObjectReference {
-        SelfId: 15865188970662252232
-      }
-    }
-    Overrides {
-      Name: "cs:Boca"
-      ObjectReference {
-        SelfId: 6994613436021838738
-      }
-    }
-    Overrides {
-      Name: "cs:MouthNormal"
-      Float: 65
-    }
-    Overrides {
-      Name: "cs:MouthAttack"
-      Float: 95
-    }
-    Overrides {
-      Name: "cs:timeRot"
-      Float: 0.25
-    }
-    Overrides {
-      Name: "cs:attackWait"
-      Float: 0.65
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4111186645364193324
-    }
-  }
-  InstanceHistory {
-    SelfId: 8026080234114444232
-    SubobjectId: 5265752675657731694
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 3682944280905607709
-  Name: "LifeAndDamage"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15865188970662252232
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-    Overrides {
-      Name: "cs:DamageNumber"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:DangerZone"
-      ObjectReference {
-        SelfId: 6293646056428984264
-      }
-    }
-    Overrides {
-      Name: "cs:DeadBody"
-      AssetReference {
-        Id: 13286927452092422979
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17737562968012951706
-    }
-  }
-  InstanceHistory {
-    SelfId: 1745258226426204609
-    SubobjectId: 4488272736296039527
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 4462342505647704929
-  Name: "SkullHeadMovement"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15865188970662252232
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC"
-      ObjectReference {
-        SelfId: 15865188970662252232
-      }
-    }
-    Overrides {
-      Name: "cs:velMove"
-      Float: 100
-    }
-    Overrides {
-      Name: "cs:PlayersTrigger"
-      ObjectReference {
-        SelfId: 7272914094075619884
-      }
-    }
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-    Overrides {
-      Name: "cs:Projectile"
-      AssetReference {
-        Id: 3246017222882703219
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15885776799844652311
-    }
-  }
-  InstanceHistory {
-    SelfId: 11235900974499711570
-    SubobjectId: 13662825321732108276
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 188823486210523509
-  Name: "Collider"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Pitch: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.5
-    }
-  }
-  ParentId: 15865188970662252232
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5944393796542654307
-    }
-    Teams {
-      TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9883591529370461425
-    SubobjectId: 12634982324910883159
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 6293646056428984264
-  Name: "TriggerDamage"
-  Transform {
-    Location {
-      Z: 20
-    }
-    Rotation {
-      Yaw: -89.9999695
-    }
-    Scale {
-      X: 3
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15865188970662252232
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
-    }
-  }
-  InstanceHistory {
-    SelfId: 14904678462017415479
-    SubobjectId: 16765183210588867729
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 7272914094075619884
-  Name: "TriggerPlayers"
-  Transform {
-    Location {
-      X: 0.000149010841
-      Y: 624.996582
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 12.9999971
-      Y: 12.5
-      Z: 9
-    }
-  }
-  ParentId: 15865188970662252232
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 4699868028778453552
-    SubobjectId: 7442376814821293974
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 8165854015990106547
-  Name: "SkullHeadEnemy"
-  Transform {
-    Location {
-      X: 19
-      Y: 1550
-      Z: 230
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 16416709032798020476
-  ChildIds: 12190034582472031700
-  ChildIds: 18013986895613150817
-  ChildIds: 18332110863190225695
-  ChildIds: 17639543696185875990
-  ChildIds: 6640924381247231672
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Life"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:Damage"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:Attacking"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Attacking:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Life:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Damage:isrep"
-      Bool: true
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11608205251203227857
-    SubobjectId: 9757411940140991863
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 6640924381247231672
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8165854015990106547
-  ChildIds: 15732641031672942529
-  ChildIds: 7545964744412491426
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 13673886781154991429
-    SubobjectId: 11219184440929401059
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 7545964744412491426
-  Name: "Bone Human Skull 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.65
-      Y: 1.65
-      Z: 1.65
-    }
-  }
-  ParentId: 6640924381247231672
-  ChildIds: 2635926997715267467
-  ChildIds: 1758455369637755109
-  ChildIds: 13159464955146428955
-  ChildIds: 17108063489820361056
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10526696444636517620
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 5992518870142020749
-    SubobjectId: 8455613250097858859
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 17108063489820361056
-  Name: "Bone Human Jaw 01"
-  Transform {
-    Location {
-      X: 1.21212
-      Y: 5.4545455
-      Z: 0.606060624
-    }
-    Rotation {
-      Roll: -5
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7545964744412491426
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4850619443359866551
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8805091168472747623
-    SubobjectId: 6647344515083922369
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 13159464955146428955
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: 4.99999809
-      Y: 17.9999981
-      Z: 5
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7545964744412491426
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Flame_A:id"
-      AssetReference {
-        Id: 12673738611328690629
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13914974435705128543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7308209818185504681
-    SubobjectId: 4835196124202578447
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 1758455369637755109
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: -5.00000191
-      Y: 17.9999981
-      Z: 5
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7545964744412491426
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Flame_A:id"
-      AssetReference {
-        Id: 16038232306704228084
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13914974435705128543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8273259842531313060
-    SubobjectId: 6098277022803288066
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 2635926997715267467
-  Name: "Fire Volume VFX"
-  Transform {
-    Location {
-      X: -1.8181833
-      Y: 4.24242401
-      Z: -3.63636374
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.25
-    }
-  }
-  ParentId: 7545964744412491426
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.0429802313
-        B: 0.590000033
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2494920176024075778
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 14262142698151191235
-    SubobjectId: 16401164685630703461
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 15732641031672942529
-  Name: "SkullHeadAnimation"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6640924381247231672
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC"
-      ObjectReference {
-        SelfId: 8165854015990106547
-      }
-    }
-    Overrides {
-      Name: "cs:Boca"
-      ObjectReference {
-        SelfId: 17108063489820361056
-      }
-    }
-    Overrides {
-      Name: "cs:MouthNormal"
-      Float: 65
-    }
-    Overrides {
-      Name: "cs:MouthAttack"
-      Float: 95
-    }
-    Overrides {
-      Name: "cs:timeRot"
-      Float: 0.25
-    }
-    Overrides {
-      Name: "cs:attackWait"
-      Float: 0.65
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4111186645364193324
-    }
-  }
-  InstanceHistory {
-    SelfId: 8026080234114444232
-    SubobjectId: 5265752675657731694
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 17639543696185875990
-  Name: "LifeAndDamage"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8165854015990106547
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-    Overrides {
-      Name: "cs:DamageNumber"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:DangerZone"
-      ObjectReference {
-        SelfId: 12190034582472031700
-      }
-    }
-    Overrides {
-      Name: "cs:DeadBody"
-      AssetReference {
-        Id: 13286927452092422979
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17737562968012951706
-    }
-  }
-  InstanceHistory {
-    SelfId: 1745258226426204609
-    SubobjectId: 4488272736296039527
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 18332110863190225695
-  Name: "SkullHeadMovement"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8165854015990106547
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC"
-      ObjectReference {
-        SelfId: 8165854015990106547
-      }
-    }
-    Overrides {
-      Name: "cs:velMove"
-      Float: 100
-    }
-    Overrides {
-      Name: "cs:PlayersTrigger"
-      ObjectReference {
-        SelfId: 16416709032798020476
-      }
-    }
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-    Overrides {
-      Name: "cs:Projectile"
-      AssetReference {
-        Id: 3246017222882703219
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15885776799844652311
-    }
-  }
-  InstanceHistory {
-    SelfId: 11235900974499711570
-    SubobjectId: 13662825321732108276
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 18013986895613150817
-  Name: "Collider"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Pitch: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.5
-    }
-  }
-  ParentId: 8165854015990106547
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5944393796542654307
-    }
-    Teams {
-      TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9883591529370461425
-    SubobjectId: 12634982324910883159
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 12190034582472031700
-  Name: "TriggerDamage"
-  Transform {
-    Location {
-      Z: 20
-    }
-    Rotation {
-      Yaw: -89.9999695
-    }
-    Scale {
-      X: 3
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8165854015990106547
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
-    }
-  }
-  InstanceHistory {
-    SelfId: 14904678462017415479
-    SubobjectId: 16765183210588867729
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 16416709032798020476
-  Name: "TriggerPlayers"
-  Transform {
-    Location {
-      X: 0.000149010841
-      Y: 624.996582
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 12.9999971
-      Y: 12.5
-      Z: 9
-    }
-  }
-  ParentId: 8165854015990106547
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 4699868028778453552
-    SubobjectId: 7442376814821293974
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 3983904831151167373
+  Id: 3903676565085432215
   Name: "SkullHeadEnemy"
   Transform {
     Location {
@@ -1492,38 +70,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 15204280021332916222
-  ChildIds: 4840808889269448296
-  ChildIds: 11415831339626740707
-  ChildIds: 15773058479620701759
-  ChildIds: 13684662162358313340
-  ChildIds: 12252911912368216888
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Life"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:Damage"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:Attacking"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Attacking:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Life:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Damage:isrep"
-      Bool: true
-    }
-  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1531,672 +77,46 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11608205251203227857
-    SubobjectId: 9757411940140991863
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 2700
+            Z: 150
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
   }
 }
 Objects {
-  Id: 12252911912368216888
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3983904831151167373
-  ChildIds: 1613096750209985340
-  ChildIds: 1690373626075519600
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 13673886781154991429
-    SubobjectId: 11219184440929401059
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 1690373626075519600
-  Name: "Bone Human Skull 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.65
-      Y: 1.65
-      Z: 1.65
-    }
-  }
-  ParentId: 12252911912368216888
-  ChildIds: 14708472085212759154
-  ChildIds: 7042506817417276407
-  ChildIds: 899967057238148648
-  ChildIds: 13461494663607453726
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10526696444636517620
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 5992518870142020749
-    SubobjectId: 8455613250097858859
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 13461494663607453726
-  Name: "Bone Human Jaw 01"
-  Transform {
-    Location {
-      X: 1.21212
-      Y: 5.4545455
-      Z: 0.606060624
-    }
-    Rotation {
-      Roll: -5
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1690373626075519600
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4850619443359866551
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8805091168472747623
-    SubobjectId: 6647344515083922369
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 899967057238148648
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: 4.99999809
-      Y: 17.9999981
-      Z: 5
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1690373626075519600
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Flame_A:id"
-      AssetReference {
-        Id: 12673738611328690629
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13914974435705128543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7308209818185504681
-    SubobjectId: 4835196124202578447
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 7042506817417276407
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: -5.00000191
-      Y: 17.9999981
-      Z: 5
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1690373626075519600
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Flame_A:id"
-      AssetReference {
-        Id: 16038232306704228084
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13914974435705128543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8273259842531313060
-    SubobjectId: 6098277022803288066
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 14708472085212759154
-  Name: "Fire Volume VFX"
-  Transform {
-    Location {
-      X: -1.8181833
-      Y: 4.24242401
-      Z: -3.63636374
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.25
-    }
-  }
-  ParentId: 1690373626075519600
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.0429802313
-        B: 0.590000033
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2494920176024075778
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 14262142698151191235
-    SubobjectId: 16401164685630703461
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 1613096750209985340
-  Name: "SkullHeadAnimation"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12252911912368216888
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC"
-      ObjectReference {
-        SelfId: 3983904831151167373
-      }
-    }
-    Overrides {
-      Name: "cs:Boca"
-      ObjectReference {
-        SelfId: 13461494663607453726
-      }
-    }
-    Overrides {
-      Name: "cs:MouthNormal"
-      Float: 65
-    }
-    Overrides {
-      Name: "cs:MouthAttack"
-      Float: 95
-    }
-    Overrides {
-      Name: "cs:timeRot"
-      Float: 0.25
-    }
-    Overrides {
-      Name: "cs:attackWait"
-      Float: 0.65
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4111186645364193324
-    }
-  }
-  InstanceHistory {
-    SelfId: 8026080234114444232
-    SubobjectId: 5265752675657731694
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 13684662162358313340
-  Name: "LifeAndDamage"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3983904831151167373
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-    Overrides {
-      Name: "cs:DamageNumber"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:DangerZone"
-      ObjectReference {
-        SelfId: 4840808889269448296
-      }
-    }
-    Overrides {
-      Name: "cs:DeadBody"
-      AssetReference {
-        Id: 13286927452092422979
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17737562968012951706
-    }
-  }
-  InstanceHistory {
-    SelfId: 1745258226426204609
-    SubobjectId: 4488272736296039527
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 15773058479620701759
-  Name: "SkullHeadMovement"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3983904831151167373
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC"
-      ObjectReference {
-        SelfId: 3983904831151167373
-      }
-    }
-    Overrides {
-      Name: "cs:velMove"
-      Float: 100
-    }
-    Overrides {
-      Name: "cs:PlayersTrigger"
-      ObjectReference {
-        SelfId: 15204280021332916222
-      }
-    }
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-    Overrides {
-      Name: "cs:Projectile"
-      AssetReference {
-        Id: 3246017222882703219
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15885776799844652311
-    }
-  }
-  InstanceHistory {
-    SelfId: 11235900974499711570
-    SubobjectId: 13662825321732108276
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 11415831339626740707
-  Name: "Collider"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Pitch: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.5
-    }
-  }
-  ParentId: 3983904831151167373
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5944393796542654307
-    }
-    Teams {
-      TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9883591529370461425
-    SubobjectId: 12634982324910883159
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 4840808889269448296
-  Name: "TriggerDamage"
-  Transform {
-    Location {
-      Z: 20
-    }
-    Rotation {
-      Yaw: -89.9999695
-    }
-    Scale {
-      X: 3
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3983904831151167373
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
-    }
-  }
-  InstanceHistory {
-    SelfId: 14904678462017415479
-    SubobjectId: 16765183210588867729
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 15204280021332916222
-  Name: "TriggerPlayers"
-  Transform {
-    Location {
-      X: 0.000149010841
-      Y: 624.996582
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 12.9999971
-      Y: 12.5
-      Z: 9
-    }
-  }
-  ParentId: 3983904831151167373
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 4699868028778453552
-    SubobjectId: 7442376814821293974
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 11608205251203227857
+  Id: 9282529283417496801
   Name: "SkullHeadEnemy"
   Transform {
     Location {
       X: 19
-      Y: 1325
+      Y: 1750
       Z: 230
     }
     Rotation {
-      Yaw: 180
+      Yaw: -179.999985
     }
     Scale {
       X: 1
@@ -2205,38 +125,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 4699868028778453552
-  ChildIds: 14904678462017415479
-  ChildIds: 9883591529370461425
-  ChildIds: 11235900974499711570
-  ChildIds: 1745258226426204609
-  ChildIds: 13673886781154991429
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Life"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:Damage"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:Attacking"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Attacking:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Life:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Damage:isrep"
-      Bool: true
-    }
-  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2244,27 +132,46 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 11608205251203227857
-    SubobjectId: 9757411940140991863
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 3000
+            Z: 150
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
   }
 }
 Objects {
-  Id: 13673886781154991429
-  Name: "ClientContext"
+  Id: 3756673039234190798
+  Name: "SkullHeadEnemy"
   Transform {
     Location {
+      X: 19
+      Y: 1600
+      Z: 230
     }
     Rotation {
+      Yaw: -179.999985
     }
     Scale {
       X: 1
@@ -2272,407 +179,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11608205251203227857
-  ChildIds: 8026080234114444232
-  ChildIds: 5992518870142020749
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 13673886781154991429
-    SubobjectId: 11219184440929401059
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 5992518870142020749
-  Name: "Bone Human Skull 01"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.65
-      Y: 1.65
-      Z: 1.65
-    }
-  }
-  ParentId: 13673886781154991429
-  ChildIds: 14262142698151191235
-  ChildIds: 8273259842531313060
-  ChildIds: 7308209818185504681
-  ChildIds: 8805091168472747623
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10526696444636517620
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 5992518870142020749
-    SubobjectId: 8455613250097858859
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 8805091168472747623
-  Name: "Bone Human Jaw 01"
-  Transform {
-    Location {
-      X: 1.21212
-      Y: 5.4545455
-      Z: 0.606060624
-    }
-    Rotation {
-      Roll: -5
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5992518870142020749
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4850619443359866551
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8805091168472747623
-    SubobjectId: 6647344515083922369
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 7308209818185504681
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: 4.99999809
-      Y: 17.9999981
-      Z: 5
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5992518870142020749
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Flame_A:id"
-      AssetReference {
-        Id: 12673738611328690629
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13914974435705128543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7308209818185504681
-    SubobjectId: 4835196124202578447
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 8273259842531313060
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: -5.00000191
-      Y: 17.9999981
-      Z: 5
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5992518870142020749
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Flame_A:id"
-      AssetReference {
-        Id: 16038232306704228084
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13914974435705128543
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 8273259842531313060
-    SubobjectId: 6098277022803288066
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 14262142698151191235
-  Name: "Fire Volume VFX"
-  Transform {
-    Location {
-      X: -1.8181833
-      Y: 4.24242401
-      Z: -3.63636374
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.25
-    }
-  }
-  ParentId: 5992518870142020749
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.0429802313
-        B: 0.590000033
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2494920176024075778
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 14262142698151191235
-    SubobjectId: 16401164685630703461
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 8026080234114444232
-  Name: "SkullHeadAnimation"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13673886781154991429
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC"
-      ObjectReference {
-        SelfId: 11608205251203227857
-      }
-    }
-    Overrides {
-      Name: "cs:Boca"
-      ObjectReference {
-        SelfId: 8805091168472747623
-      }
-    }
-    Overrides {
-      Name: "cs:MouthNormal"
-      Float: 65
-    }
-    Overrides {
-      Name: "cs:MouthAttack"
-      Float: 95
-    }
-    Overrides {
-      Name: "cs:timeRot"
-      Float: 0.25
-    }
-    Overrides {
-      Name: "cs:attackWait"
-      Float: 0.65
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4111186645364193324
-    }
-  }
-  InstanceHistory {
-    SelfId: 8026080234114444232
-    SubobjectId: 5265752675657731694
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
-  }
-}
-Objects {
-  Id: 1745258226426204609
-  Name: "LifeAndDamage"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11608205251203227857
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-    Overrides {
-      Name: "cs:DamageNumber"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:DangerZone"
-      ObjectReference {
-        SelfId: 14904678462017415479
-      }
-    }
-    Overrides {
-      Name: "cs:DeadBody"
-      AssetReference {
-        Id: 13286927452092422979
-      }
-    }
-  }
+  ParentId: 4781671109827199097
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2680,28 +187,46 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17737562968012951706
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 2850
+            Z: 150
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
     }
-  }
-  InstanceHistory {
-    SelfId: 1745258226426204609
-    SubobjectId: 4488272736296039527
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
   }
 }
 Objects {
-  Id: 11235900974499711570
-  Name: "SkullHeadMovement"
+  Id: 13776904743061140475
+  Name: "SkullHeadEnemy"
   Transform {
     Location {
+      X: 19
+      Y: 1900
+      Z: 230
     }
     Rotation {
+      Yaw: -179.999985
     }
     Scale {
       X: 1
@@ -2709,37 +234,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11608205251203227857
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:NPC"
-      ObjectReference {
-        SelfId: 11608205251203227857
-      }
-    }
-    Overrides {
-      Name: "cs:velMove"
-      Float: 100
-    }
-    Overrides {
-      Name: "cs:PlayersTrigger"
-      ObjectReference {
-        SelfId: 4699868028778453552
-      }
-    }
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 9770511928359673738
-      }
-    }
-    Overrides {
-      Name: "cs:Projectile"
-      AssetReference {
-        Id: 3246017222882703219
-      }
-    }
-  }
+  ParentId: 4781671109827199097
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2747,87 +242,127 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15885776799844652311
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4488272736296039527
+      value {
+        Overrides {
+          Name: "cs:CreateCapsule"
+          Bool: true
+        }
+      }
     }
-  }
-  InstanceHistory {
-    SelfId: 11235900974499711570
-    SubobjectId: 13662825321732108276
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 3150
+            Z: 150
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
   }
 }
 Objects {
-  Id: 9883591529370461425
-  Name: "Collider"
+  Id: 10107420451112305548
+  Name: "SkullHeadEnemy"
   Transform {
     Location {
+      X: 19
+      Y: 1450
+      Z: 230
     }
     Rotation {
-      Pitch: -90
+      Yaw: -179.999985
     }
     Scale {
       X: 1
       Y: 1
-      Z: 2.5
+      Z: 1
     }
   }
-  ParentId: 11608205251203227857
+  ParentId: 4781671109827199097
   WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 5944393796542654307
-    }
-    Teams {
-      TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4488272736296039527
+      value {
+        Overrides {
+          Name: "cs:CreateCapsule"
+          Bool: true
+        }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9883591529370461425
-    SubobjectId: 12634982324910883159
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 1900
+            Z: 400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
   }
 }
 Objects {
-  Id: 14904678462017415479
-  Name: "TriggerDamage"
+  Id: 18257899080562443998
+  Name: "SkullHeadEnemy"
   Transform {
     Location {
-      Z: 20
+      X: 19
+      Y: 1450
+      Z: 230
     }
     Rotation {
-      Yaw: -89.9999695
+      Yaw: -179.999985
     }
     Scale {
-      X: 3
+      X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 11608205251203227857
+  ParentId: 4781671109827199097
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2835,44 +370,54 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      TeamInt: 2
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 1750
+            Z: 400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
     }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
+    TemplateAsset {
+      Id: 14921108986507947413
     }
-  }
-  InstanceHistory {
-    SelfId: 14904678462017415479
-    SubobjectId: 16765183210588867729
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
   }
 }
 Objects {
-  Id: 4699868028778453552
-  Name: "TriggerPlayers"
+  Id: 8715809259951206753
+  Name: "SkullHeadEnemy"
   Transform {
     Location {
-      X: 0.000149010841
-      Y: 624.996582
+      X: 19
+      Y: 1450
+      Z: 230
     }
     Rotation {
-      Yaw: -90
+      Yaw: -179.999985
     }
     Scale {
-      X: 12.9999971
-      Y: 12.5
-      Z: 9
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 11608205251203227857
+  ParentId: 4781671109827199097
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2880,23 +425,80 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 1600
+            Z: 400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 13406746537179956783
+  Name: "SkullHeadEnemy"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  InstanceHistory {
-    SelfId: 4699868028778453552
-    SubobjectId: 7442376814821293974
-    InstanceId: 2776651303302064986
-    TemplateId: 14921108986507947413
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 1450
+            Z: 400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
   }
 }
 Objects {
