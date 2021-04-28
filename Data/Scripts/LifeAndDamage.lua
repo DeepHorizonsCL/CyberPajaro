@@ -4,6 +4,7 @@ local propModuleManager = script:GetCustomProperty("ModuleManager")
 local propDeadBody = script:GetCustomProperty("DeadBody")
 local propCreateCapsule = script:GetCustomProperty("CreateCapsule")
 local propCapsule = script:GetCustomProperty("Capsule")
+local propDamageparticles = script:GetCustomProperty("damageparticles")
 
 local MODULE = require( script:GetCustomProperty("ModuleManager"))
 
@@ -30,7 +31,8 @@ function OnDangerBegin(whichTrigger, other)
         print("owner ", other.owner)
         print("attackpoints", other.owner.serverUserData.attackpoints)
         attackpoints = other.owner.serverUserData.attackpoints
-        print ("life", life)    
+        print ("life", life) 
+        World.SpawnAsset(propDamageparticles, {other = ROOT:GetWorldPosition()})  
         other:Destroy()
         if life then 
             life = life - attackpoints

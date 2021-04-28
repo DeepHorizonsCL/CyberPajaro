@@ -290,6 +290,12 @@ Assets {
               Id: 10965148045289499161
             }
           }
+          Overrides {
+            Name: "cs:damageparticles"
+            AssetReference {
+              Id: 2598067687938959005
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -649,6 +655,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_capsule_001"
+      }
+    }
+    Assets {
+      Id: 2598067687938959005
+      Name: "Explosion Kit Rock Burst VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_mil_dirt_impact_explosikit_debris"
       }
     }
     Assets {

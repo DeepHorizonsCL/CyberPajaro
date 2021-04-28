@@ -15,8 +15,9 @@ Objects {
     }
   }
   ChildIds: 7367735074338159388
-  ChildIds: 14074213943443498542
+  ChildIds: 12913488017323216653
   ChildIds: 16813558807825262224
+  ChildIds: 14903432753042181627
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 11763929955986876072
@@ -41,6 +42,16 @@ Objects {
   ChildIds: 7693044947531396039
   ChildIds: 9707796453826915568
   ChildIds: 17854100389238682782
+  ChildIds: 3814533676257008117
+  ChildIds: 15669854275956097481
+  ChildIds: 18095766155272995233
+  ChildIds: 5640186755676133515
+  ChildIds: 1901860116086657315
+  ChildIds: 12628345707775041478
+  ChildIds: 14076325578415986584
+  ChildIds: 7834136247192975329
+  ChildIds: 12203998866673244476
+  ChildIds: 6079647446098591236
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -53,6 +64,616 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 6079647446098591236
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 4250
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4488272736296039527
+      value {
+        Overrides {
+          Name: "cs:CreateCapsule"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 6927
+            Z: 687
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 12203998866673244476
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 3950
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 7194
+            Z: 687
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 7834136247192975329
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 4100
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 7344
+            Z: 687
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 14076325578415986584
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 3800
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 7044
+            Z: 687
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 12628345707775041478
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 4250
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4488272736296039527
+      value {
+        Overrides {
+          Name: "cs:CreateCapsule"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 6486
+            Z: 443
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 1901860116086657315
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 3950
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 6186
+            Z: 443
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 5640186755676133515
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 4100
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 6336
+            Z: 443
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 18095766155272995233
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 3800
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 6036
+            Z: 443
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 15669854275956097481
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 4960
+      Z: 644
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 4
+      Y: 4
+      Z: 4
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4488272736296039527
+      value {
+        Overrides {
+          Name: "cs:CreateCapsule"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 4998
+            Z: 206
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4
+            Y: 4
+            Z: 4
+          }
+        }
+        Overrides {
+          Name: "cs:Life"
+          Float: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
+  }
+}
+Objects {
+  Id: 3814533676257008117
+  Name: "SkullHeadEnemy"
+  Transform {
+    Location {
+      X: 19
+      Y: 4250
+      Z: 400
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4488272736296039527
+      value {
+        Overrides {
+          Name: "cs:CreateCapsule"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9757411940140991863
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SkullHeadEnemy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19
+            Y: 4983
+            Z: 570
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4
+            Y: 4
+            Z: 4
+          }
+        }
+        Overrides {
+          Name: "cs:Life"
+          Float: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14921108986507947413
+    }
   }
 }
 Objects {
@@ -1886,11 +2507,159 @@ Objects {
   }
 }
 Objects {
+  Id: 14903432753042181627
+  Name: "Camera"
+  Transform {
+    Location {
+      X: 17
+      Y: 844
+      Z: 187
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 14024150806564749805
+  ChildIds: 8710225840550787215
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6406222765827365568
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8710225840550787215
+  Name: "Side Scroller Camera"
+  Transform {
+    Location {
+      X: -17
+      Y: -798
+      Z: 103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14903432753042181627
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Camera {
+    UseAsDefault: true
+    InitialDistance: 1000
+    MinDistance: 300
+    MaxDistance: 600
+    PositionOffset {
+    }
+    RotationOffset {
+    }
+    FieldOfView: 90
+    ViewWidth: 1200
+    RotationMode {
+      Value: "mc:erotationmode:fixed"
+    }
+    MinPitch: -89
+    MaxPitch: 89
+  }
+  InstanceHistory {
+    SelfId: 8710225840550787215
+    SubobjectId: 2822726097171685260
+    InstanceId: 14074213943443498542
+    TemplateId: 2507787632901966926
+  }
+}
+Objects {
+  Id: 14024150806564749805
+  Name: "CameraMovement"
+  Transform {
+    Location {
+      X: -17
+      Y: -798
+      Z: -397
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14903432753042181627
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Camera"
+      ObjectReference {
+        SelfId: 14903432753042181627
+      }
+    }
+    Overrides {
+      Name: "cs:MainCamera"
+      ObjectReference {
+        SelfId: 8710225840550787215
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16662906164672436186
+    }
+  }
+}
+Objects {
   Id: 16813558807825262224
   Name: "Spawn Point"
   Transform {
     Location {
-      Z: 115
+      Z: 420
     }
     Rotation {
     }
@@ -1918,7 +2687,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14074213943443498542
+  Id: 12913488017323216653
   Name: "Side Scroller Camera Settings"
   Transform {
     Scale {
@@ -1928,102 +2697,190 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 14746512713800750178
+  ChildIds: 6761933845068311270
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:IsCursorVisible"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsCursorVisible:tooltip"
+      String: "Whether or not to show the cursor for the side scroller view."
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10622448906399757153
-      value {
-        Overrides {
-          Name: "PlayerLookControlMode"
-          Enum {
-            Value: "mc:elookcontrolmode:none"
-          }
-        }
-        Overrides {
-          Name: "PlayerMovementControlMode"
-          Enum {
-            Value: "mc:emovementcontrolmode:fixedaxes"
-          }
-        }
-        Overrides {
-          Name: "IsCrouchEnabled"
-          Bool: false
-        }
-        Overrides {
-          Name: "HeadVisibleToSelf"
-          Bool: false
-        }
-        Overrides {
-          Name: "CanMoveLeft"
-          Bool: false
-        }
-        Overrides {
-          Name: "CanMoveRight"
-          Bool: false
-        }
-        Overrides {
-          Name: "CanMoveDown"
-          Bool: false
-        }
-        Overrides {
-          Name: "CanMoveUp"
-          Bool: false
-        }
-        Overrides {
-          Name: "IsJumpEnabled"
-          Bool: false
-        }
-        Overrides {
-          Name: "IsMountEnabled"
-          Bool: false
-        }
-        Overrides {
-          Name: "CanMoveBackward"
-          Bool: false
-        }
-        Overrides {
-          Name: "CanMoveForward"
-          Bool: false
-        }
-        Overrides {
-          Name: "AbilityAimMode"
-          Enum {
-            Value: "mc:eabilityaimmode:viewrelative"
-          }
-        }
-        Overrides {
-          Name: "PlayerFacingMode"
-          Enum {
-            Value: "mc:efacingmode:faceaimalways"
-          }
-        }
-        Overrides {
-          Name: "PlayerFlipOnMultiJump"
-          Bool: false
-        }
-        Overrides {
-          Name: "PlayerGravityScale"
-          Float: 0
-        }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 12913488017323216653
+    SubobjectId: 17075761651191506958
+    InstanceId: 14074213943443498542
+    TemplateId: 2507787632901966926
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 6761933845068311270
+  Name: "Client Context"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12913488017323216653
+  ChildIds: 16799770529617032341
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 6761933845068311270
+    SubobjectId: 151874646695562725
+    InstanceId: 14074213943443498542
+    TemplateId: 2507787632901966926
+  }
+}
+Objects {
+  Id: 16799770529617032341
+  Name: "CursorClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6761933845068311270
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 12913488017323216653
       }
     }
-    ParameterOverrideMap {
-      key: 17075761651191506958
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Side Scroller Camera Settings"
-        }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15565680221026194443
+    }
+  }
+  InstanceHistory {
+    SelfId: 16799770529617032341
+    SubobjectId: 13179890306720961430
+    InstanceId: 14074213943443498542
+    TemplateId: 2507787632901966926
+  }
+}
+Objects {
+  Id: 14746512713800750178
+  Name: "Side Scroller Player Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12913488017323216653
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    PlayerMovementSettings {
+      WalkSpeed: 640
+      MaxAcceleration: 1800
+      WalkableFloorAngle: 44
+      JumpMaxCount: 1
+      JumpVelocity: 900
+      GroundFriction: 8
+      MaxSwimSpeed: 420
+      Buoyancy: 1
+      TouchForceFactor: 1
+      BrakingDecelerationFlying: 600
+      MaxFlightSpeed: 600
+      MovementControlMode {
+        Value: "mc:emovementcontrolmode:fixedaxes"
       }
+      LookControlMode {
+        Value: "mc:elookcontrolmode:none"
+      }
+      FacingMode {
+        Value: "mc:efacingmode:faceaimalways"
+      }
+      DefaultRotationRate: 540
+      SlideRotationRate: 20
+      LookAtCursorProjectionPlane {
+        Value: "mc:eprojectionplane:yz"
+      }
+      MountedMaxAcceleration: 1800
+      MountedWalkSpeed: 960
+      MountedJumpMaxCount: 1
+      MountedJumpVelocity: 900
+      IsSlideEnabled: true
+      AbilityAimMode {
+        Value: "mc:eabilityaimmode:viewrelative"
+      }
+      AppearanceChannelingTime: 2
+      MountChannelingTime: 2
+      MaxHitpoints: 100
     }
-    TemplateAsset {
-      Id: 2507787632901966926
-    }
+  }
+  InstanceHistory {
+    SelfId: 14746512713800750178
+    SubobjectId: 10622448906399757153
+    InstanceId: 14074213943443498542
+    TemplateId: 2507787632901966926
   }
 }
 Objects {
@@ -2238,6 +3095,12 @@ Objects {
       Name: "cs:ModuleManager"
       AssetReference {
         Id: 9770511928359673738
+      }
+    }
+    Overrides {
+      Name: "cs:explosion1"
+      AssetReference {
+        Id: 4919468884643923576
       }
     }
     Overrides {

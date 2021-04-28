@@ -3,12 +3,17 @@ local crowModel = script:GetCustomProperty("Crow")
 
 local propShoot = script:GetCustomProperty("shoot")
 local MODULE = require(script:GetCustomProperty("ModuleManager"))
+
+local propExplosion1 = script:GetCustomProperty("explosion1")
+
 function COMBAT() return MODULE.Get("standardcombo.Combat.Wrap") end
 local projectileImpactListener = nil
 
 
 local chickens = {}
 local chickenMap = ""
+
+local moving = true
 
 function OnBindingReleased(player, bindingReleased)
     --print("binding ",bindingReleased)
@@ -76,8 +81,11 @@ end
 function Tick()
     players = Game.GetPlayers()
     for _, player in ipairs(players) do
-        player:ResetVelocity()
-        player:AddImpulse(Vector3.New(0,20000,0))
+        player:ResetVelocity() 
+        if moving then
+            pos = player:GetWorldPosition()
+        end
+        player:SetWorldPosition(pos + Vector3.New(0,8,0))
 
         if player.serverUserData.W then
             player:AddImpulse(Vector3.New(0,0,80000))
@@ -224,9 +232,11 @@ function OnProjectileImpact(projectile, other, hitResult)
     --print(myTeam)
     print("team del impacto", impactTeam)
 
+    World.SpawnAsset(propExplosion1, {position = hitResult:GetImpactPosition() , rotation = projectile:GetWorldTransform():GetRotation() }) --
+
     if( impactTeam == 2) then
         --print("es el 2 atacadlo")
-        local pos = hitResult:GetImpactPosition()
+        local pos = hitResult:GetImpactPosition()    
         local rot = projectile:GetWorldTransform():GetRotation()
         --print("Ataca ", projectile:GetCustomProperty("Ataque"))
         local damageAmount = 10

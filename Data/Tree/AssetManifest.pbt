@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6406222765827365568
+  Name: "Barrier Light"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_barrier_light_001"
+  }
+}
+Assets {
   Id: 6288014450590117605
   Name: "Tree Birch Bare 01"
   PlatformAssetType: 1
@@ -77,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_birch_004"
+  }
+}
+Assets {
+  Id: 4919468884643923576
+  Name: "Explosion Kit Fire Spikes VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_mil_explokit_fireSpikes"
   }
 }
 Assets {
